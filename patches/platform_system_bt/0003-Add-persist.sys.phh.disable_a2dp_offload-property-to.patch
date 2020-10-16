@@ -1,4 +1,4 @@
-From 83293b39e918000818a87829ee6dc1803e953f18 Mon Sep 17 00:00:00 2001
+From eba7ce1a14f942bfdc6ac93eac14188b7b2b91ec Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 25 May 2020 21:25:12 +0200
 Subject: [PATCH 3/3] Add persist.sys.phh.disable_a2dp_offload property to
@@ -6,14 +6,14 @@ Subject: [PATCH 3/3] Add persist.sys.phh.disable_a2dp_offload property to
 
 ---
  btif/src/btif_av.cc             | 7 ++++++-
- stack/a2dp/a2dp_codec_config.cc | 7 ++++++-
- 2 files changed, 12 insertions(+), 2 deletions(-)
+ stack/a2dp/a2dp_codec_config.cc | 9 +++++++--
+ 2 files changed, 13 insertions(+), 3 deletions(-)
 
 diff --git a/btif/src/btif_av.cc b/btif/src/btif_av.cc
-index 14fabdbef..530c996d5 100644
+index 1003b0f82..b7832a478 100644
 --- a/btif/src/btif_av.cc
 +++ b/btif/src/btif_av.cc
-@@ -959,9 +959,14 @@ bt_status_t BtifAvSource::Init(
+@@ -968,9 +968,14 @@ bt_status_t BtifAvSource::Init(
    osi_property_get("ro.bluetooth.a2dp_offload.supported", value_sup, "false");
    osi_property_get("persist.bluetooth.a2dp_offload.disabled", value_dis,
                     "false");
@@ -28,12 +28,12 @@ index 14fabdbef..530c996d5 100644
 +  LOG_ERROR(LOG_TAG, "a2dp_offload.enable = %s", a2dp_offload_enabled_ ? "on" : "off");
  
    callbacks_ = callbacks;
-   bta_av_co_init(codec_priorities);
+   if (a2dp_offload_enabled_) {
 diff --git a/stack/a2dp/a2dp_codec_config.cc b/stack/a2dp/a2dp_codec_config.cc
-index 2480cdc66..6ddfb27fa 100644
+index edf7e0c46..795cbab9c 100644
 --- a/stack/a2dp/a2dp_codec_config.cc
 +++ b/stack/a2dp/a2dp_codec_config.cc
-@@ -564,13 +564,18 @@ bool A2dpCodecs::init() {
+@@ -560,13 +560,18 @@ bool A2dpCodecs::init() {
    char* tok = NULL;
    char* tmp_token = NULL;
    bool offload_codec_support[BTAV_A2DP_CODEC_INDEX_MAX] = {false};
@@ -53,6 +53,15 @@ index 2480cdc66..6ddfb27fa 100644
  
    if (a2dp_offload_status) {
      char value_cap[PROPERTY_VALUE_MAX];
+@@ -654,7 +659,7 @@ bool A2dpCodecs::init() {
+     }
+   }
+ 
+-  return (!ordered_source_codecs_.empty() && !ordered_sink_codecs_.empty());
++  return (!ordered_source_codecs_.empty() && !ordered_sink_codecs_.empty()) && !a2dp_offload_status;
+ }
+ 
+ A2dpCodecConfig* A2dpCodecs::findSourceCodecConfig(
 -- 
-2.25.1
+2.17.1
 
