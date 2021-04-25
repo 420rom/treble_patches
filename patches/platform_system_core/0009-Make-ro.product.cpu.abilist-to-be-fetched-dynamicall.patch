@@ -18,12 +18,12 @@ Change-Id: I01ae01af099a4ec8fe3d4525edecc233a477ff60
  1 file changed, 64 insertions(+)
 
 diff --git a/init/property_service.cpp b/init/property_service.cpp
-index a89504e59..ce83605da 100644
+index 89944ca80..03d18c85f 100644
 --- a/init/property_service.cpp
 +++ b/init/property_service.cpp
-@@ -873,6 +873,69 @@ static void property_derive_build_fingerprint() {
-     }
+@@ -976,6 +976,69 @@ static void property_derive_build_fingerprint() {
  }
+ #endif
  
 +// If the ro.product.cpu.abilist* properties have not been explicitly
 +// set, derive them from ro.${partition}.product.cpu.abilist* properties.
@@ -91,14 +91,15 @@ index a89504e59..ce83605da 100644
  void PropertyLoadBootDefaults() {
      // TODO(b/117892318): merge prop.default and build.prop files into one
      // We read the properties and their values into a map, in order to always allow properties
-@@ -914,6 +977,7 @@ void PropertyLoadBootDefaults() {
- 
-     property_initialize_ro_product_props();
+@@ -1024,6 +1087,8 @@ void PropertyLoadBootDefaults() {
      property_derive_build_fingerprint();
-+    property_initialize_ro_cpu_abilist();
+ #endif
  
-     update_sys_usb_config();
- }
++    property_initialize_ro_cpu_abilist();
++
+     if (android::base::GetBoolProperty("ro.persistent_properties.ready", false)) {
+         update_sys_usb_config();
+     }
 -- 
 2.25.1
 

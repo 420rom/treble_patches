@@ -77,7 +77,7 @@ index 02cdcc65..e5f76742 100644
 -				goto exit;
 +                if(
 +                        strcmp(key, "sysfs_usb_supply") == 0 ||
-+                        strcmp(key, "hostapd") == 0 || 
++                        strcmp(key, "hostapd") == 0 ||
 +                        strcmp(key, "rpmb_device") == 0) {
 +                    cil_log(CIL_ERR, "Ignoring...");
 +                } else {

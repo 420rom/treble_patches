@@ -11,7 +11,7 @@ Subject: [PATCH 28/46] Make rounded corners padding overridable with
  3 files changed, 15 insertions(+), 6 deletions(-)
 
 diff --git a/packages/SystemUI/src/com/android/systemui/qs/QuickStatusBarHeader.java b/packages/SystemUI/src/com/android/systemui/qs/QuickStatusBarHeader.java
-index 58c723c58daa..364135a5962d 100644
+index 58c723c58da..364135a5962 100644
 --- a/packages/SystemUI/src/com/android/systemui/qs/QuickStatusBarHeader.java
 +++ b/packages/SystemUI/src/com/android/systemui/qs/QuickStatusBarHeader.java
 @@ -32,6 +32,7 @@ import android.graphics.Rect;
@@ -36,7 +36,7 @@ index 58c723c58daa..364135a5962d 100644
  
          // Update height for a few views, especially due to landscape mode restricting space.
 diff --git a/packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardStatusBarView.java b/packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardStatusBarView.java
-index 8636cb29811c..146653aadf19 100644
+index f69435777bc..82e6910149a 100644
 --- a/packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardStatusBarView.java
 +++ b/packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardStatusBarView.java
 @@ -25,6 +25,7 @@ import android.content.res.Resources;
@@ -47,7 +47,7 @@ index 8636cb29811c..146653aadf19 100644
  import android.util.AttributeSet;
  import android.util.Pair;
  import android.util.TypedValue;
-@@ -189,8 +190,10 @@ public class KeyguardStatusBarView extends RelativeLayout
+@@ -194,8 +195,10 @@ public class KeyguardStatusBarView extends RelativeLayout
                  R.dimen.display_cutout_margin_consumption);
          mShowPercentAvailable = getContext().getResources().getBoolean(
                  com.android.internal.R.bool.config_battery_percentage_setting_available);
@@ -57,22 +57,22 @@ index 8636cb29811c..146653aadf19 100644
 +        if(mRoundedCornerPadding == -1)
 +            mRoundedCornerPadding = res.getDimensionPixelSize(
 +                    R.dimen.rounded_corner_content_padding);
+         mHasCutout = CutoutUtils.hasCutout(getContext());
      }
  
-     private void updateVisibilities() {
 diff --git a/packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarView.java b/packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarView.java
-index 7c41bcd09b57..91f7bd0c7a5d 100644
+index 2e120e8aabb..ef52cce94be 100644
 --- a/packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarView.java
 +++ b/packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarView.java
-@@ -24,6 +24,7 @@ import android.annotation.Nullable;
- import android.content.Context;
+@@ -25,6 +25,7 @@ import android.content.Context;
  import android.content.res.Configuration;
+ import android.content.res.Resources;
  import android.graphics.Rect;
 +import android.os.SystemProperties;
+ import android.os.RemoteException;
  import android.util.AttributeSet;
  import android.util.EventLog;
- import android.util.Pair;
-@@ -287,8 +288,10 @@ public class PhoneStatusBarView extends PanelBar {
+@@ -358,8 +359,10 @@ public class PhoneStatusBarView extends PanelBar implements Callbacks {
      public void updateResources() {
          mCutoutSideNudge = getResources().getDimensionPixelSize(
                  R.dimen.display_cutout_margin_consumption);

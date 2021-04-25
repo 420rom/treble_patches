@@ -6,8 +6,8 @@ Subject: [PATCH 16/46] fix crashing on devices with higher aspect ratio down
 
 * This is what the Qin 2 (Pro) is.
 ---
- .../SystemUI/res/values-sw288dp/dimens.xml    | 34 +++++++++++++++++++
- 1 file changed, 34 insertions(+)
+ .../SystemUI/res/values-sw288dp/dimens.xml    | 33 +++++++++++++++++++
+ 1 file changed, 33 insertions(+)
  create mode 100644 packages/SystemUI/res/values-sw288dp/dimens.xml
 
 diff --git a/packages/SystemUI/res/values-sw288dp/dimens.xml b/packages/SystemUI/res/values-sw288dp/dimens.xml
@@ -15,7 +15,7 @@ new file mode 100644
 index 000000000000..2774554ec642
 --- /dev/null
 +++ b/packages/SystemUI/res/values-sw288dp/dimens.xml
-@@ -0,0 +1,34 @@
+@@ -0,0 +1,33 @@
 +<?xml version="1.0" encoding="utf-8"?>
 +<!--
 +  ~ Copyright (C) 2019 The Android Open Source Project
@@ -49,7 +49,6 @@ index 000000000000..2774554ec642
 +    <dimen name="global_actions_grid_item_icon_bottom_margin">4dp</dimen>
 +
 +</resources>
-+
 -- 
 2.25.1
 

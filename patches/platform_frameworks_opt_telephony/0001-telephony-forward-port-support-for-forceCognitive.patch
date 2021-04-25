@@ -14,18 +14,10 @@ Change-Id: I5e93cbef317b7973e0dc1125cfc3cc576a1cf9fa
  2 files changed, 5 insertions(+), 2 deletions(-)
 
 diff --git a/src/java/com/android/internal/telephony/RIL.java b/src/java/com/android/internal/telephony/RIL.java
-index 91c79cb30..782cd9ebb 100644
+index 3ef440f13..c329d65aa 100644
 --- a/src/java/com/android/internal/telephony/RIL.java
 +++ b/src/java/com/android/internal/telephony/RIL.java
-@@ -66,6 +66,7 @@ import android.os.HwBinder;
- import android.os.Message;
- import android.os.PowerManager;
- import android.os.PowerManager.WakeLock;
-+import android.os.SystemProperties;
- import android.os.RemoteException;
- import android.os.SystemClock;
- import android.os.WorkSource;
-@@ -4473,7 +4474,8 @@ public class RIL extends BaseCommands implements CommandsInterface {
+@@ -4485,7 +4485,8 @@ public class RIL extends BaseCommands implements CommandsInterface {
                      for (DataProfile dp : dps) {
                          // For v1.0 to v1.2, we only send data profiles that has the persistent
                          // (a.k.a modem cognitive) bit set to true.

@@ -26,7 +26,7 @@ index 36250450cc74..b93136f7fc32 100644
        if (android::base::GetProperty(overlay_info->requiredSystemPropertyName, "") !=
            overlay_info->requiredSystemPropertyValue) {
 -        continue;
-+          
++
 +        auto osValue = android::base::GetProperty(overlay_info->requiredSystemPropertyName, "");
 +        if(fnmatch(overlay_info->requiredSystemPropertyValue.c_str()+1, osValue.c_str(), 0) != 0) {
 +          continue;
