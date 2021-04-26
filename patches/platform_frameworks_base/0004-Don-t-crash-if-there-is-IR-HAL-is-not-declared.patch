@@ -1,7 +1,7 @@
 From fcd273b4ff579a102b209a7f8837dc99992030df Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Thu, 17 May 2018 20:28:35 +0200
-Subject: [PATCH 04/46] Don't crash if there is IR HAL is not declared
+Subject: [PATCH 04/49] Don't crash if there is IR HAL is not declared
 
 ---
  services/core/java/com/android/server/ConsumerIrService.java | 2 --

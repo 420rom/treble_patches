@@ -1,7 +1,7 @@
 From 6b8c8d51342258d27bd9868b34031d98d9753adf Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Fri, 18 Dec 2020 16:38:58 -0500
-Subject: [PATCH 35/46] Fix Samsung Power HAL (switch/case was filled with
+Subject: [PATCH 35/49] Fix Samsung Power HAL (switch/case was filled with
  mines/returns), and cleanup code and add logs
 
 ---

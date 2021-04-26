@@ -1,7 +1,7 @@
 From 9200ff345583aa448cb994510ae5178911af9e94 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Wed, 9 Dec 2020 16:42:42 +0100
-Subject: [PATCH 29/46] Revert "Support Huawei light HAL"
+Subject: [PATCH 29/49] Revert "Support Huawei light HAL"
 
 This reverts commit 01ec4684c1a491ce4aa0b93c38c4af68f789de35.
 ---
