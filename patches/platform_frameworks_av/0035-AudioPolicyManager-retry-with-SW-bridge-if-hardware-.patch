@@ -1,4 +1,4 @@
-From 5d869232d42a2fee6b7cb07b6a240aef5838021b Mon Sep 17 00:00:00 2001
+From d5e3a1a6557425c564fc5cf8fdc0f5bb75309948 Mon Sep 17 00:00:00 2001
 From: Peter Cai <peter@typeblog.net>
 Date: Sun, 28 Mar 2021 16:17:36 +0800
 Subject: [PATCH 35/40] AudioPolicyManager: retry with SW bridge if hardware

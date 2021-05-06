@@ -1,4 +1,4 @@
-From 594cbb7d232a15d04116348637bcacda3f19343e Mon Sep 17 00:00:00 2001
+From aa928030a51bbd457422a340287bc0c500e50a4e Mon Sep 17 00:00:00 2001
 From: Wonsik Kim <wonsik@google.com>
 Date: Thu, 3 Dec 2020 11:07:58 -0800
 Subject: [PATCH 29/40] CCodec: fix ByteBuffer mode image

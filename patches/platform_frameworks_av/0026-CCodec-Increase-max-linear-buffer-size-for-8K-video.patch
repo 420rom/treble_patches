@@ -1,4 +1,4 @@
-From 226f40294355edfc2a76090a4df94ba0820db7fd Mon Sep 17 00:00:00 2001
+From 3e73f8b37f4652ecb848d3e6655686021d355f6e Mon Sep 17 00:00:00 2001
 From: Sungtak Lee <taklee@google.com>
 Date: Sun, 8 Nov 2020 00:07:27 -0800
 Subject: [PATCH 26/40] CCodec: Increase max linear buffer size for 8K video

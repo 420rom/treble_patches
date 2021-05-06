@@ -1,4 +1,4 @@
-From ba36f75e9cdee8a066f58ba58461a732009a8d24 Mon Sep 17 00:00:00 2001
+From 425e6f6df6072a0bd0509f0e50883c71fed56549 Mon Sep 17 00:00:00 2001
 From: Houxiang Dai <houxiang.dai@mediatek.com>
 Date: Thu, 23 Jul 2020 14:07:22 +0800
 Subject: [PATCH 17/40] ACodec: Handle HDR10+ metadata at

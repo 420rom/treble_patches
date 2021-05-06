@@ -1,4 +1,4 @@
-From 43517cec615300b514a2aec0946b8175339a5096 Mon Sep 17 00:00:00 2001
+From 7ecb6532d6ce8b5326cf2c7ca2317d7ba6b38e81 Mon Sep 17 00:00:00 2001
 From: Artem Borisov <dedsa2002@gmail.com>
 Date: Tue, 25 Sep 2018 12:39:22 +0300
 Subject: [PATCH 04/40] CameraService: Support calling addStates in

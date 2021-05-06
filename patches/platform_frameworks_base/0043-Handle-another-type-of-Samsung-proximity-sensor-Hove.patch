@@ -1,4 +1,4 @@
-From ff7c7b9a654797a2785039daf2818b64f0f6d952 Mon Sep 17 00:00:00 2001
+From 7a56b6794464bd91f90dc4751f4f67c9933c469f Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sat, 20 Mar 2021 14:30:17 +0100
 Subject: [PATCH 43/49] Handle another type of Samsung proximity sensor: Hover

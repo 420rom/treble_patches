@@ -1,4 +1,4 @@
-From a41017141c182df117a05bc6c13a9fc37abd90b1 Mon Sep 17 00:00:00 2001
+From e296d8d226c8a8f1568412b2b432320c30a82f13 Mon Sep 17 00:00:00 2001
 From: Taehwan Kim <t_h.kim@samsung.com>
 Date: Thu, 17 Sep 2020 12:26:40 +0900
 Subject: [PATCH 21/40] CCodec: fix underflow issue on handleImageData

@@ -1,4 +1,4 @@
-From 3f549683ca2b5c360c35fbf909cbc022a6710fd0 Mon Sep 17 00:00:00 2001
+From ad8719882d526569e49ddbd56186c0a9b33533a7 Mon Sep 17 00:00:00 2001
 From: Lajos Molnar <lajos@google.com>
 Date: Wed, 12 Aug 2020 15:56:31 -0700
 Subject: [PATCH 27/40] omx: calculate nodePrefix only for components listed in

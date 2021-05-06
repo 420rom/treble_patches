@@ -1,4 +1,4 @@
-From dbe938b700cde85988ab69e52af0b82c0fc0cdfd Mon Sep 17 00:00:00 2001
+From 2a39888d4f020255b8a182e0c4b11ea63b9b6241 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 25 May 2020 21:25:12 +0200
 Subject: [PATCH 3/4] Add persist.sys.phh.disable_a2dp_offload property to
@@ -10,10 +10,10 @@ Subject: [PATCH 3/4] Add persist.sys.phh.disable_a2dp_offload property to
  2 files changed, 13 insertions(+), 3 deletions(-)
 
 diff --git a/btif/src/btif_av.cc b/btif/src/btif_av.cc
-index 1003b0f82..b7832a478 100644
+index 679ec5ef5..0cab72a4a 100644
 --- a/btif/src/btif_av.cc
 +++ b/btif/src/btif_av.cc
-@@ -968,9 +968,14 @@ bt_status_t BtifAvSource::Init(
+@@ -971,9 +971,14 @@ bt_status_t BtifAvSource::Init(
    osi_property_get("ro.bluetooth.a2dp_offload.supported", value_sup, "false");
    osi_property_get("persist.bluetooth.a2dp_offload.disabled", value_dis,
                     "false");

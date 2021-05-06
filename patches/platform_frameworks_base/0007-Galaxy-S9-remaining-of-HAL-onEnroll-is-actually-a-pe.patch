@@ -1,4 +1,4 @@
-From 50586c660a89ad87e325b1a7271e6e2823a60f95 Mon Sep 17 00:00:00 2001
+From 56f30fcc6470b5133ef8612ca2bbbc55511c0589 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 2 Jul 2018 23:36:39 +0200
 Subject: [PATCH 07/49] [Galaxy S9] "remaining" of HAL onEnroll is actually a

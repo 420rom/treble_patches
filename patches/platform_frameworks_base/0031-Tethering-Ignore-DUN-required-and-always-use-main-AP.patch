@@ -1,4 +1,4 @@
-From b6e71b6b2b5c8c631161d7bc5b49ee3a6f5cf920 Mon Sep 17 00:00:00 2001
+From cc6d115c362cf06bdadce26402a623535bb30c9c Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sun, 13 Dec 2020 01:38:50 +0100
 Subject: [PATCH 31/49] [Tethering] Ignore DUN required and always use main APN

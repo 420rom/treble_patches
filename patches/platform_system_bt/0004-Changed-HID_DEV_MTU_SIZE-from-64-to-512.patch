@@ -1,4 +1,4 @@
-From b1270331862673cc1f3f808d1d1123936bab3a21 Mon Sep 17 00:00:00 2001
+From 4f58a4d2deb02a206007b13178d5ba455d8e7851 Mon Sep 17 00:00:00 2001
 From: Danny Trunk <dtrunk90@gmail.com>
 Date: Mon, 7 Sep 2020 16:44:24 +0200
 Subject: [PATCH 4/4] Changed HID_DEV_MTU_SIZE from 64 to 512

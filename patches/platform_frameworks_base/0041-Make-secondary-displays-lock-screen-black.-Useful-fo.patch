@@ -1,4 +1,4 @@
-From e50e08f3cb8526e3ca0a488fa957bdb66c21054b Mon Sep 17 00:00:00 2001
+From 425099ffc9ccfeebdd2029dcf2310f0a7799a96f Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sat, 6 Mar 2021 18:39:15 -0500
 Subject: [PATCH 41/49] Make secondary displays' lock screen black. Useful for

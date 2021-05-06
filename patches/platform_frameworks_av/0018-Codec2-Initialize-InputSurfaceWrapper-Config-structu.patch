@@ -1,4 +1,4 @@
-From 2834b9d308e6d8778129755254fc8cafa27b35fa Mon Sep 17 00:00:00 2001
+From 70d11884809cbb2dc442a43a8a4bb86d09ffc032 Mon Sep 17 00:00:00 2001
 From: wangchenyang <daniellingyx@gmail.com>
 Date: Thu, 24 Dec 2020 16:55:50 +0800
 Subject: [PATCH 18/40] Codec2: Initialize InputSurfaceWrapper::Config

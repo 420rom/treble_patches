@@ -1,4 +1,4 @@
-From 5d35b737cc91d235551806d8b76e95e74eda8539 Mon Sep 17 00:00:00 2001
+From f840db39d2e9a5475757cbf549b923db1099f946 Mon Sep 17 00:00:00 2001
 From: Danny Lin <danny@kdrag0n.dev>
 Date: Mon, 5 Oct 2020 12:36:35 -0700
 Subject: [PATCH 27/49] Add support for app signature spoofing
@@ -112,7 +112,7 @@ index 5f15216e8400..c29feb9cd7ba 100644
      field public static final String GET_ACCOUNTS = "android.permission.GET_ACCOUNTS";
      field public static final String GET_ACCOUNTS_PRIVILEGED = "android.permission.GET_ACCOUNTS_PRIVILEGED";
 diff --git a/services/core/java/com/android/server/pm/PackageManagerService.java b/services/core/java/com/android/server/pm/PackageManagerService.java
-index 9ac2da188bab..7b93001b42b0 100644
+index 7a8d1f9fec5d..deca1f4c3c6a 100644
 --- a/services/core/java/com/android/server/pm/PackageManagerService.java
 +++ b/services/core/java/com/android/server/pm/PackageManagerService.java
 @@ -4407,8 +4407,9 @@ public class PackageManagerService extends IPackageManager.Stub

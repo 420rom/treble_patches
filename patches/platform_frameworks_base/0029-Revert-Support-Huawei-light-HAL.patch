@@ -1,4 +1,4 @@
-From 9200ff345583aa448cb994510ae5178911af9e94 Mon Sep 17 00:00:00 2001
+From 988dc65ceb180abd4e6e32a32abc10b210847040 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Wed, 9 Dec 2020 16:42:42 +0100
 Subject: [PATCH 29/49] Revert "Support Huawei light HAL"
