@@ -1,4 +1,4 @@
-From 942eecfef3ef7314cddbfe6858108b0f53e5f86d Mon Sep 17 00:00:00 2001
+From fe4a02947b5747b49ce052f3a1df9d37cade3cbe Mon Sep 17 00:00:00 2001
 From: Bowgo Tsai <bowgotsai@google.com>
 Date: Fri, 4 Dec 2020 17:04:34 +0800
 Subject: [PATCH 12/12] Adding 'postinstall' root dir unconditionally.

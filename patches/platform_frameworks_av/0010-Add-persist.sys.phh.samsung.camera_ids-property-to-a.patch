@@ -1,7 +1,7 @@
-From 7a5c5eee829f1ab859d4c7bf6de3c4cf86a16fa4 Mon Sep 17 00:00:00 2001
+From 5d0ec98e2e0d92cb9b2cc8d47c3c6f65ef09563c Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Thu, 14 May 2020 19:54:55 +0200
-Subject: [PATCH 10/40] Add persist.sys.phh.samsung.camera_ids property to
+Subject: [PATCH 10/39] Add persist.sys.phh.samsung.camera_ids property to
  access hidden Samsung cameras
 
 Change-Id: I2c7bf535272acc28ed2277e96c78ddd28a0b4593

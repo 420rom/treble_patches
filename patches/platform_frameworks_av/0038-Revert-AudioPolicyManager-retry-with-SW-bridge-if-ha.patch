@@ -1,7 +1,7 @@
-From 2fd4810ec5e6a453e980cacba2e1bcdd30b3f967 Mon Sep 17 00:00:00 2001
+From 854066444a07f2a4085ed18dcd782d962ffda282 Mon Sep 17 00:00:00 2001
 From: Peter Cai <peter@typeblog.net>
 Date: Wed, 14 Apr 2021 10:20:22 +0800
-Subject: [PATCH 39/40] Revert "AudioPolicyManager: retry with SW bridge if
+Subject: [PATCH 38/39] Revert "AudioPolicyManager: retry with SW bridge if
  hardware audio patch fails"
 
 This reverts commit 5d869232d42a2fee6b7cb07b6a240aef5838021b.

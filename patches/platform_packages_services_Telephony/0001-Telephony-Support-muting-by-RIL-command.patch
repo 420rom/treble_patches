@@ -1,4 +1,4 @@
-From af74c48ab938dca2c89dc689a3bd93af204d89ed Mon Sep 17 00:00:00 2001
+From 829d6f6f95c145457b0e31b863d69bc1d4196258 Mon Sep 17 00:00:00 2001
 From: Artem Borisov <dedsa2002@gmail.com>
 Date: Wed, 19 Sep 2018 17:02:06 +0300
 Subject: [PATCH] Telephony: Support muting by RIL command

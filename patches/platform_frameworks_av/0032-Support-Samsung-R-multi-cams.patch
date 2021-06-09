@@ -1,7 +1,7 @@
-From 1b373208b3704cd605fd92546ddabaffb78fe00f Mon Sep 17 00:00:00 2001
+From 6c2b8aa4cf81fd0c52868bf717e7a628f0813ec2 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sat, 13 Mar 2021 14:20:03 -0500
-Subject: [PATCH 33/40] Support Samsung R multi-cams
+Subject: [PATCH 32/39] Support Samsung R multi-cams
 
 ---
  services/camera/libcameraservice/Android.bp               | 1 +

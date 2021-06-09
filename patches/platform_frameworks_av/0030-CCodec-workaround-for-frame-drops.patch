@@ -1,7 +1,7 @@
-From 8be538e62b4afa1cdc3e3622ed04311994d30db5 Mon Sep 17 00:00:00 2001
+From 76b168a5dfc2fa48b19b952c4e368566ed7a4063 Mon Sep 17 00:00:00 2001
 From: Wonsik Kim <wonsik@google.com>
 Date: Tue, 5 Jan 2021 18:55:22 -0800
-Subject: [PATCH 31/40] CCodec: workaround for frame drops
+Subject: [PATCH 30/39] CCodec: workaround for frame drops
 
 Retain old behavior for lower resolution (<=4K) to workaround
 possible frame drops.

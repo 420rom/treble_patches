@@ -1,7 +1,7 @@
-From 842a0fedf593a2d718f3522a4f29435d23a05581 Mon Sep 17 00:00:00 2001
+From 9e7b66abc9c5fc412f7bfe7ebf1ec2e23b625b06 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Tue, 23 Mar 2021 00:16:42 +0100
-Subject: [PATCH 34/40] [audiopolicy] Don't crash on unknown audio devices
+Subject: [PATCH 33/39] [audiopolicy] Don't crash on unknown audio devices
 
 ---
  .../common/managerdefinitions/src/Serializer.cpp           | 7 ++++++-

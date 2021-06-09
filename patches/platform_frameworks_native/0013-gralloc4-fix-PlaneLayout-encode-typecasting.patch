@@ -1,4 +1,4 @@
-From 54a80ed3e7039548d565c4e40e2fa7a45c89bce8 Mon Sep 17 00:00:00 2001
+From 3e20aa5d72fe44a254d29f9b7d117b6b8f04ab63 Mon Sep 17 00:00:00 2001
 From: SeYeong Byeon <sy.byeon@samsung.com>
 Date: Tue, 15 Sep 2020 15:02:40 +0900
 Subject: [PATCH 13/14] gralloc4: fix PlaneLayout encode typecasting

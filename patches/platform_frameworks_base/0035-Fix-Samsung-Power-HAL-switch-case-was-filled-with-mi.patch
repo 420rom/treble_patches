@@ -1,4 +1,4 @@
-From 1ccf426434358d0045aa52eff9db4cbcdd5d6849 Mon Sep 17 00:00:00 2001
+From a893b28efb6cafd46952bf24b86161f7eb795b47 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Fri, 18 Dec 2020 16:38:58 -0500
 Subject: [PATCH 35/49] Fix Samsung Power HAL (switch/case was filled with

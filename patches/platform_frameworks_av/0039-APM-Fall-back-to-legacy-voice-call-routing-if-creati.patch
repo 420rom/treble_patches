@@ -1,7 +1,7 @@
-From 7bb3de067cec0c8c3bd5341bf9ad42b808fefd39 Mon Sep 17 00:00:00 2001
+From bd379f2536e43cfd4bf5ac22a8b3b2090d1ad7cd Mon Sep 17 00:00:00 2001
 From: Peter Cai <peter@typeblog.net>
 Date: Wed, 14 Apr 2021 11:09:12 +0800
-Subject: [PATCH 40/40] APM: Fall back to legacy voice call routing if creating
+Subject: [PATCH 39/39] APM: Fall back to legacy voice call routing if creating
  audio patch failed
 
 * On some MT6771 Q vendor devices, in-call audio is broken due to APM

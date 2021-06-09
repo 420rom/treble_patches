@@ -1,4 +1,4 @@
-From 99e0657c0215e9ce9ba55aba5c41fbfe438c82e6 Mon Sep 17 00:00:00 2001
+From e396971c2228ecfbc5a2ccb9348a29c693157c14 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 28 Sep 2020 21:02:19 +0200
 Subject: [PATCH 2/2] Add special handling of vndk 26 (remove liblog.so from

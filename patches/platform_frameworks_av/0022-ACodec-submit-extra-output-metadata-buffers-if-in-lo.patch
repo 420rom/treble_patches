@@ -1,7 +1,7 @@
-From 3896c6cf6fa62d3cdcb935a58c99b20300889ac2 Mon Sep 17 00:00:00 2001
+From f14afe4be615bf786c0e8e5a1eb77046627e28e6 Mon Sep 17 00:00:00 2001
 From: Wonsik Kim <wonsik@google.com>
 Date: Tue, 22 Sep 2020 18:44:47 -0700
-Subject: [PATCH 23/40] ACodec: submit extra output metadata buffers if in low
+Subject: [PATCH 22/39] ACodec: submit extra output metadata buffers if in low
  latency mode
 
 Bug: 166250452

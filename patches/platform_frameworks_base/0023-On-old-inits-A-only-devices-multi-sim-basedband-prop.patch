@@ -1,4 +1,4 @@
-From 058fb4afef0fa5f7435d2f1b5358b41746426fc0 Mon Sep 17 00:00:00 2001
+From 1da4025fd751f5518b643b13b3f3e06276cc55a7 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Mon, 21 Sep 2020 10:30:18 +0200
 Subject: [PATCH 23/49] On old inits (A-only devices), multi-sim basedband

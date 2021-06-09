@@ -1,7 +1,7 @@
-From ad8719882d526569e49ddbd56186c0a9b33533a7 Mon Sep 17 00:00:00 2001
+From 5604ec2f9c99daa56b5b67bc3cdc8a8be5942037 Mon Sep 17 00:00:00 2001
 From: Lajos Molnar <lajos@google.com>
 Date: Wed, 12 Aug 2020 15:56:31 -0700
-Subject: [PATCH 27/40] omx: calculate nodePrefix only for components listed in
+Subject: [PATCH 26/39] omx: calculate nodePrefix only for components listed in
  IOmx
 
 Also make common prefix matching case insensitive.

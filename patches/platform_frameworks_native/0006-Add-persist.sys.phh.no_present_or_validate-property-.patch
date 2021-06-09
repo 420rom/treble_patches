@@ -1,4 +1,4 @@
-From fd5e5cb624600914c0687a2efc1ccaa9758b2b9e Mon Sep 17 00:00:00 2001
+From 16e0410a148e32e630b0d4d9d41d2e17b4b5e680 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Wed, 30 Sep 2020 22:41:39 +0200
 Subject: [PATCH 06/14] Add persist.sys.phh.no_present_or_validate property to
