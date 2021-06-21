@@ -1,4 +1,4 @@
-From ec86cb25825819c7d8d792733a54ba1f41fb8ce1 Mon Sep 17 00:00:00 2001
+From dc1c126444f4188b294db28727c8047fa7abe58a Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Tue, 1 May 2018 17:47:36 +0200
 Subject: [PATCH 03/49] Also scan /system/overlay

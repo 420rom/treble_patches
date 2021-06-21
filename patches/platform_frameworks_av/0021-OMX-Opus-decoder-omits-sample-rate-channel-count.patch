@@ -1,7 +1,7 @@
-From c95bc9ba86110d0cd4498f613ac6ce509c9a4e47 Mon Sep 17 00:00:00 2001
+From 2abe843c633dca4d70cb36cc13babf4600ee2060 Mon Sep 17 00:00:00 2001
 From: Ray Essick <essick@google.com>
 Date: Mon, 14 Sep 2020 17:05:07 -0700
-Subject: [PATCH 22/40] OMX Opus decoder omits sample rate / channel count
+Subject: [PATCH 21/39] OMX Opus decoder omits sample rate / channel count
 
 The OMX Opus decoder doesn't signal back the channel/samplerate info to
 the framework, leading to a CTS failure when checking required values.

@@ -1,7 +1,7 @@
-From 088bd953d0abebd2f24b3d2ef159fe4394acaa8e Mon Sep 17 00:00:00 2001
+From 10453a932b6556b381bfb47333d201d77af1b01f Mon Sep 17 00:00:00 2001
 From: Wonsik Kim <wonsik@google.com>
 Date: Thu, 12 Nov 2020 11:14:42 -0800
-Subject: [PATCH 25/40] C2OMXNode: read delay from component to determine
+Subject: [PATCH 24/39] C2OMXNode: read delay from component to determine
  buffer count
 
 Bug: 169398817

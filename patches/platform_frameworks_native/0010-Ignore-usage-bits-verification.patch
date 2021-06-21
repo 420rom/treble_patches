@@ -1,4 +1,4 @@
-From 81059b28b99fe1c6ae3c63a451ff0d887cfbad22 Mon Sep 17 00:00:00 2001
+From b60c3c876f696e769ee7615789a5a888dfe54678 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sun, 19 Aug 2018 23:07:24 +0200
 Subject: [PATCH 10/14] Ignore usage bits verification

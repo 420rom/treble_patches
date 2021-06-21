@@ -1,7 +1,7 @@
-From e296d8d226c8a8f1568412b2b432320c30a82f13 Mon Sep 17 00:00:00 2001
+From 4b8ed3d8f409314fd68b96d6d59a6c1a90038f8f Mon Sep 17 00:00:00 2001
 From: Taehwan Kim <t_h.kim@samsung.com>
 Date: Thu, 17 Sep 2020 12:26:40 +0900
-Subject: [PATCH 21/40] CCodec: fix underflow issue on handleImageData
+Subject: [PATCH 20/39] CCodec: fix underflow issue on handleImageData
 
 the logic is assumed that gralloc does assume a contiguous mapping
 at GraphicView2MediaImageConverter() in Codec2Buffer.

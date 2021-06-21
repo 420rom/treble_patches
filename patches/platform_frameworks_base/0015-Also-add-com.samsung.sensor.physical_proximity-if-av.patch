@@ -1,4 +1,4 @@
-From ba292672f3873a29d895d44eb9b86103b9ca3a4a Mon Sep 17 00:00:00 2001
+From 0a7df1063f90102642d263acd1471eecda8be206 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Wed, 14 Aug 2019 23:36:45 +0200
 Subject: [PATCH 15/49] Also add com.samsung.sensor.physical_proximity (if

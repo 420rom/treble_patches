@@ -1,4 +1,4 @@
-From 0095c540bdf2ba2cf59670de9f93364d711e86f8 Mon Sep 17 00:00:00 2001
+From 38af9a42d9890b5e598f2acb853226068aa712d0 Mon Sep 17 00:00:00 2001
 From: Arne Coucheron <arco68@gmail.com>
 Date: Thu, 5 Nov 2020 05:38:44 +0100
 Subject: [PATCH 39/49] SystemUI: Use AVCProfileMain for screen recorder

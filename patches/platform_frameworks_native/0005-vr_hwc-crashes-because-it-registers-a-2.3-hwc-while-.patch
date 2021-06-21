@@ -1,4 +1,4 @@
-From 8d7a5aef35b1f860a7585f17000a4442de2cfb76 Mon Sep 17 00:00:00 2001
+From d6dc63194badf4afef8f27ae39c36bebefa42b45 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Fri, 11 Sep 2020 21:33:05 +0200
 Subject: [PATCH 05/14] vr_hwc crashes because it registers a 2.3 hwc, while

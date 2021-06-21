@@ -1,7 +1,7 @@
-From 449fa7a00e5e26948bd27c9df7b96e27317048f2 Mon Sep 17 00:00:00 2001
+From 3454bf516df90a05a6956ed6a9b1de202d627447 Mon Sep 17 00:00:00 2001
 From: Wonsik Kim <wonsik@google.com>
 Date: Wed, 25 Nov 2020 10:12:32 -0800
-Subject: [PATCH 28/40] C2AllocatorBlob: allow multiple maps
+Subject: [PATCH 27/39] C2AllocatorBlob: allow multiple maps
 
 Test: CtsMediaTestCases:DecoderTest
 Test: CtsMediaV2TestCases:CodecDecoderTest

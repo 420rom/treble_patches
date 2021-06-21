@@ -1,4 +1,4 @@
-From f840db39d2e9a5475757cbf549b923db1099f946 Mon Sep 17 00:00:00 2001
+From 8b05eb4d9a54eeea2a3f6616dd2cecc54790d7d1 Mon Sep 17 00:00:00 2001
 From: Danny Lin <danny@kdrag0n.dev>
 Date: Mon, 5 Oct 2020 12:36:35 -0700
 Subject: [PATCH 27/49] Add support for app signature spoofing

@@ -1,4 +1,4 @@
-From f0ba0deb2d743f582cb1f54829788fc7a4c945b6 Mon Sep 17 00:00:00 2001
+From b38d84b6cd1b2c64335d5d28c8ecf6744ed64752 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Fri, 1 Nov 2019 18:22:13 +0100
 Subject: [PATCH 05/12] Have sdcard daemon detect sdcardfs params based on vndk

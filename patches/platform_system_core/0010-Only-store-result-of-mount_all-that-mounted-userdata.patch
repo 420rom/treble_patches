@@ -1,4 +1,4 @@
-From 09acfd9aa6393a6da642e954865ac8fcbb73ed87 Mon Sep 17 00:00:00 2001
+From 55fce99c510e4070f60c778e07e2dfa8b875aac2 Mon Sep 17 00:00:00 2001
 From: Nikita Ioffe <ioffe@google.com>
 Date: Mon, 7 Sep 2020 10:27:25 +0100
 Subject: [PATCH 10/12] Only store result of mount_all that mounted userdata

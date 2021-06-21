@@ -1,4 +1,4 @@
-From 39027dd9bbbc021c9d11cfefa2bb51549980e3af Mon Sep 17 00:00:00 2001
+From 1d1570edc35c43536d7ba05540732434ba9b0577 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <pierre-hugues.husson@softathome.com>
 Date: Tue, 18 Sep 2018 17:05:07 +0200
 Subject: [PATCH 2/4] Support hostap on O/O-MR1 vendors

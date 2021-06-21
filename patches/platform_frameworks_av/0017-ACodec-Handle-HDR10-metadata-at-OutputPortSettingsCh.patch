@@ -1,7 +1,7 @@
-From 425e6f6df6072a0bd0509f0e50883c71fed56549 Mon Sep 17 00:00:00 2001
+From 57d235ef14c60066da91b5b847b587d6e2982bc2 Mon Sep 17 00:00:00 2001
 From: Houxiang Dai <houxiang.dai@mediatek.com>
 Date: Thu, 23 Jul 2020 14:07:22 +0800
-Subject: [PATCH 17/40] ACodec: Handle HDR10+ metadata at
+Subject: [PATCH 17/39] ACodec: Handle HDR10+ metadata at
  OutputPortSettingsChangedState
 
 [Description]

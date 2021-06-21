@@ -1,4 +1,4 @@
-From 756c1011480233d7ac871058e5f0c4ffa8243b21 Mon Sep 17 00:00:00 2001
+From 7d5bbe7f81b1afea0a1941ec4d9fc8e6c5b1ec18 Mon Sep 17 00:00:00 2001
 From: Pierre-Hugues Husson <phh@phh.me>
 Date: Sun, 1 Mar 2020 18:14:40 +0100
 Subject: [PATCH 17/49] Remove orientation 4 from sensor earlier in the process

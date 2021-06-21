@@ -1,4 +1,4 @@
-From 05ff63d6c39091dfeb579caf218579a04e99ef9f Mon Sep 17 00:00:00 2001
+From aa0f86e8663dd5775af821a58326dc9d259c7fec Mon Sep 17 00:00:00 2001
 From: SzuWei Lin <szuweilin@google.com>
 Date: Thu, 31 Dec 2020 16:52:39 +0800
 Subject: [PATCH 09/12] Make ro.product.cpu.abilist* to be fetched dynamically

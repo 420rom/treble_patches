@@ -1,7 +1,7 @@
-From 3d2e8b0100b528b9518c149991936627522f026e Mon Sep 17 00:00:00 2001
+From 90905f33c7b3ec59537819353f9a8653d4960b50 Mon Sep 17 00:00:00 2001
 From: David Stevens <stevensd@google.com>
 Date: Tue, 20 Oct 2020 15:00:41 +0900
-Subject: [PATCH 20/40] BufferPool: limit number of idle buffers in caches
+Subject: [PATCH 19/39] BufferPool: limit number of idle buffers in caches
 
 Some systems have limits on the total number of graphics buffers that
 can be allocated, not just the total size. When dealing with

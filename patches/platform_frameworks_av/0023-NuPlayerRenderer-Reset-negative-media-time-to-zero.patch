@@ -1,7 +1,7 @@
-From c9011ae5e953e8c7b88f6c6116dff16b15fb1308 Mon Sep 17 00:00:00 2001
+From 8fa10d3e14e09bb263738cb78e116b96e828da28 Mon Sep 17 00:00:00 2001
 From: Paras Nagda <pnagda@codeaurora.org>
 Date: Tue, 27 Oct 2020 13:01:47 +0530
-Subject: [PATCH 24/40] NuPlayerRenderer: Reset negative media time to zero
+Subject: [PATCH 23/39] NuPlayerRenderer: Reset negative media time to zero
 
 Reset negative media time to zero before call is made to
 Mediaclock's setStartingTimeMedia().
